@@ -1,0 +1,142 @@
+/*--------------------- all responsive CSS CODE ---------------------*/
+
+@media (max-width: 1300px) {
+    .hero_inner .icon_image img {
+        margin-left: -20%;
+        max-width: 34rem;
+    }
+    .specialised .styleImgBx img,
+    .experienced .styleImgBx img {
+        max-width: 24.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 95%;
+    }
+    .hero_inner .icon_image img {
+        margin-top: 0;
+        max-width: 30rem;
+    }
+    .specialised .styleImgBx img,
+    .experienced .styleImgBx img {
+        max-width: 22rem;
+    }
+    .experienced .imgBx img {
+        max-width: 100%;
+    }
+    .experienced .styleImgBx img {
+        right: -280px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .specialised .styleImgBx img,
+    .experienced .styleImgBx img {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        margin-top: .5rem;
+    }
+    .hero_inner .icon_image img {
+        margin-left: -70%;
+        max-width: 25rem;
+    }
+    .specialised .styleImgBx img {
+        top: 42%;
+        left: -190px;
+        margin-top: 0;
+    }
+    .path_img::after,
+    .path_img.b::after,
+    .path_img.c::after {
+        background-size: contain;
+        width: 45%;
+        height: 100%;
+        bottom: -12px;
+    }
+    .path_img.b::after {
+        top: 0;
+        left: -75px;
+    }
+    .experienced.information .imgBx img {
+        margin-left: 0;
+    }
+    .experienced .styleImgBx img {
+        right: -210px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero_inner .icon_image img {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 880px) {
+    .experienced .styleImgBx img {
+        max-width: 16.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 88%;
+    }
+    .hero_inner .icon_image img {
+        display: none;
+    }
+    .header .hero_area h2 {
+        line-height: 1.2;
+    }
+    .header .hero_area h5 {
+        line-height: 1.5;
+        margin-bottom: 2.3rem;
+    }
+    .experienced .imgBx img {
+        margin-bottom: 1.8rem;
+    }
+    .experienced .styleImgBx img {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 80%;
+    }
+    .specialised .styleImgBx img {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 76%;
+    }
+    .header .navbar-brand {
+        max-width: 9rem;
+    }
+    .experienced .styleImgBx img {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .experienced .imgBx {
+        padding: 0 3rem 0 3rem !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .experienced .imgBx {
+        padding: 0 !important;
+    }
+}
